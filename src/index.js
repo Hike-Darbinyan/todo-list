@@ -1,18 +1,20 @@
 import React from "react";
-import ReactDOM  from "react-dom/client";
-import TodoList from "./components/TodoList"
-import Header from "./components/Header";
-import Search from "./components/Search";
+import ReactDOM from "react-dom/client";
+import TodoList from "./components/TodoList/TodoList"
+import Header from "./components/Header/Header";
+import Search from "./components/Search/Search";
+import AddItem from "./components/AddItem/AddItem";
+import './index.css'
 
-const App = () =>
-{
+const App = () => {
   return (
-  <div>
-    <Header />
-    <Search />
-    <TodoList />
-  </div>
-)
+    <div className="app">
+      <Header />
+      <Search />
+      <TodoList />
+      <AddItem />
+    </div>
+  )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
