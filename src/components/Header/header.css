@@ -1,9 +1,25 @@
-.header h1 {
-    padding: 20px;
-    margin: 0;
+.header {
+    width: 500px;
+    height: 78px;
+    background-color: #3A4F50;
     border-radius: 5px 5px 0 0;
-    text-align: center;
+}
+
+.header h1 {
     text-transform: uppercase;
     background-color: #3A4F50;
     color: #F4FEFD;
 }
+
+.header h6 {
+    color: #F4FEFD;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 

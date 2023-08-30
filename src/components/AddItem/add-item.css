@@ -1,37 +1,24 @@
-.search {
+.additem{
+    background-color: #F4FEFD;
+    border-color: #F4FEFD;
     border-width: 2px;
     padding: 10px 5px;
-    background-color: #F4FEFD;
+    border-radius: 0 0 5px 5px;
 }
 
-.search input {
+.additem::placeholder{
+    color: #1B2223;
+}
+
+.additem input {
     padding: 10px;
     outline: none;
     border: 1px solid #e5e5e5;
     border-radius: 5px 0 0 5px;
-    width: 50%;
+    width: 70%;
 }
 
-
-
-.btn{
-    padding: 11px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s;
-    border-color: #ffffff;
-    color: #F4FEFD;
-    background-color: #3A4F50;
-}
-
-.btn:hover {
-    background-color: #192122;
-    border-color: #192122;
-}
-
-.btn-last {
-    border-radius: 0 5px 5px 0;
+.additem button {
     padding: 11px;
     border: none;
     outline: none;
@@ -43,7 +30,8 @@
     background-color: #3A4F50;
 }
 
-.btn-last:hover {
+.additem button:hover {
     background-color: #192122;
     border-color: #192122;
 }
+

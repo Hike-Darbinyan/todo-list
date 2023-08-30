@@ -1,12 +1,18 @@
-import Button from "../Button/Button";
-import "./search.css"
-
+import "./search.css";
 
 const Search = () => {
-    return <div>
-        <input className="search" type="text" placeholder="Type text for search..." />
-        <Button text="Enter" />
+  return (
+    <div className="search">
+      <input
+        className="search"
+        type="text"
+        placeholder="Type text for search..."
+      />
+      <button className="btn">All</button>
+      <button className="btn">Done</button>
+      <button className="btn-last">Important</button>
     </div>
-}
+  );
+};
 
 export default Search;

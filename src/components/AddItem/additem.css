@@ -1,9 +1,0 @@
-.additem{
-    background-color: #F4FEFD;
-    border-color: #F4FEFD;
-    border-width: 2px;
-}
-
-.additem::placeholder{
-    color: #1B2223;
-}

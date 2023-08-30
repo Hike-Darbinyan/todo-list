@@ -1,13 +1,11 @@
-import Button from "../Button/Button"
-import "../Button/button.css"
-import "./additem.css"
+import "./add-item.css"
 
 const AddItem = () => 
 {
     return (
-        <div>
-            <input className="additem" type="text" placeholder="Search"></input>
-            <Button text="Add Item" />
+        <div className="additem">
+            <input type="text" placeholder="Search"></input>
+            <button>Add Item</button>
         </div>
         
     )
